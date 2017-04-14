@@ -6,15 +6,23 @@
         <span class="label">{{ site.data.theme.t.email | default: 'Email' }}</span>
       </a>
     </li>
+    {% endif %}
+    
+  {% if site.orcid_username %}
+    <li>{% include icon-orcid.html username=site.orcid_username label='ORCiD' %}</li>
+    {% endif %}
+    
+  {% if site.linkedin_username %}
+    <li>{% include icon-linkedin.html username=site.linkedin_username label='LinkedIn' %}</li>
   {% endif %}
 
-  {% if site.github_username %}
-    <li>{% include icon-github.html username=site.github_username label='GitHub' %}</li>
+  {% if site.researchgate_username %}
+    <li>{% include icon-researchgate.html username=site.researchgate_username label='ResearchGate' %}</li>
   {% endif %}
 
-  {% if site.twitter_username %}
-    <li>{% include icon-twitter.html username=site.twitter_username label='Twitter' %}</li>
-  {% endif %}
+  {% if site.slideshare_username %}
+    <li>{% include icon-slideshare.html username=site.slideshare_username label='Slideshare' %}</li>
+    {% endif %}
 
   <li>
     {% if site.gems contains 'jekyll-feed' %}

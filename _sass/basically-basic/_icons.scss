@@ -33,6 +33,11 @@
     (twitter, #1da1f2),
     (xing, #005a5f),
     (youtube, #cd201f)
+    (researchgate, #00d0b0)
+    (slideshare, #0077b5)
+    (orcid, #a6ce39)
+    (mastodon, #181717)
+	
   );
 
   @each $icon, $color in $icons {

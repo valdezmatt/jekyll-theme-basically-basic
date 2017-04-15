@@ -1,13 +1,13 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name                    = "jekyll-theme-basically-basic"
-  spec.version                 = "1.1.0"
-  spec.authors                 = ["Michael Rose"]
+  spec.name                    = "jekyll-theme-basically-science"
+  spec.version                 = "1"
+  spec.authors                 = ["Matt Valdez"]
 
-  spec.summary                 = %q{Your new Jekyll default theme.}
-  spec.homepage                = "https://github.com/mmistakes/jekyll-theme-basically-basic"
-  spec.license                 = "MIT"
+  spec.summary                 = %q{Your new Jekyll Academic/Scientific theme.}
+  spec.homepage                = "https://github.com/valdezmatt/jekyll-theme-basically-science"
+  spec.license                 = ""
 
   spec.metadata["plugin_type"] = "theme"
 
